@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<meta name="keywords" content="{$SEO['keyword']}">
+		<meta name="description" content="{$SEO['description']}">
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+	    <script language="javascript" type="text/javascript" src="js/jquery1.42.min.js"></script>
+        <script language="javascript" type="text/javascript" src="js/jquery.SuperSlide.2.1.1.js"></script>
+		<script language="JavaScript" type="text/javascript" src="js/jquery.cxscroll.min.js" ></script>
+		<script language="JavaScript" type="text/javascript" src="js/script.js" ></script>
+
+	</head>
+<style type="text/css">
+.main{width: 990px; margin: 0 auto;}	
+.box{background:#fff;border:1px solid #fcfcfc;}
+.list{width:100%;float:left;}
+.list dl{padding:20px; padding-top: 10px;}
+.list dt{height:40px;line-height:40px;border-bottom:1px solid #BA4A5C;}
+.list dd{padding:10px;line-height:30px;}
+.list dd li span{float:right;}	
+.con-lft{width: 720px; float: left;}
+.con-rht{width: 260px; float: left; }
+.list-box{
+	margin: 10px 0 0 20px;
+	width: 800px;	
+}
+
+.text-c {text-align:center;width:100%;height:40px; padding:14px 0 10px; font-family:宋体 }
+.text-c a { display:inline-block; height:22px; line-height:22px; background:#fff; border:1px solid #e3e3e3; text-align:center; color:#333; padding:0 10px}
+.text-c a.a1 { background:url({IMG_PATH}admin_img/pages.png) no-repeat 0 5px; width:56px; padding:0 }
+.text-c a:hover { background:#f1f1f1; color:#000; text-decoration:none }
+.text-c span { display:inline-block; height:22px; line-height:22px; background:#5a85b2; border:1px solid #5a85b2; color:#fff; text-align:center;padding:0 10px}	
+
+.cat-area{width: 380px; float: left;}
+.cat-content{width: 360px; padding: 10px;  float: left;}
+.cat-content ul{float: left;}	
+	
+	
+	
+	
+	
+	
+	
+</style>
+	<body>
+		
+			<div class="page">
+				
+				
+				<ul>
+					<li class="date fl">
+					<script>
+					
+					
+						var now=new Date();
+						var year=now.getFullYear();
+						var month=now.getMonth();
+						var date=now.getDate();
+						var day=now.getDay();
+						var hour=now.getHours();
+						var minu=now.getMinutes();
+						var sec=now.getSeconds();
+						var week;
+						month=month+1;
+						if(month<10) month="0"+month;
+						if(date<10) date="0"+date;
+						if(hour<10) hour="0"+hour;
+						if(minu<10) minu="0"+minu;
+						if(sec<10) sec="0"+sec;
+						var arr_week=new Array("星期日","星期一","星期二","星期三","星期四","星期五","星期六");
+						week=arr_week[day];
+						var time="";
+						time=year+"年"+month+"月"+date+"日"+week+""+hour+":"+minu+";"+sec;
+						
+						
+					
+					document.write(time);
+					
+					
+					</script></li>
+					
+					<li class="rh date">
+						<span><a>设为首页</a></span>
+						<span><a>加入收藏</a></span>
+					</li>
+				</ul>
+				
+				
+			</div>
+		
+			<div class="top"></div>
+			<div class="nav">
+				<div class="navlist">
+							<ul id="navul" class="cl">
+											<li class="navhome"  style="border-right: 1px solid #C1C1C1;"><a href="http://zt.10yan.com/html/zgyh/">首页</a></li>
+											<li>
+												<a href="#">中心简介</a>
+												<ul>
+													<li><a href="http://zt.10yan.com/html/zgyh/wzxw/">测试</a></li>
+													<li><a href="http://zt.10yan.com/html/zgyh/xhd/">测试</a></li>
+				
+												</ul>
+											</li>
+											<li>
+												<a href="#">工作动态</a>
+												<ul>
+													<li><a href="http://zt.10yan.com/html/zgyh/lccp/cpgg/">测试</a></li>
+													<li><a href="http://zt.10yan.com/html/zgyh/lccp/cpjz/">测试</a></li>
+				
+												</ul>
+											</li>
+											<li>
+												<a href="#">监督考评</a>
+												<ul>
+													<li><a href="http://zt.10yan.com/html/zgyh/cglx/">测试</a></li>
+													<li><a href="http://zt.10yan.com/html/zgyh/gjsl/">测试</a></li>
+													<li><a href="http://zt.10yan.com/html/zgyh/tzym/">测试</a></li>
+													<li><a href="http://zt.10yan.com/html/zgyh/wpgz/">测试</a></li>
+				
+												</ul>
+											</li>
+											<li>
+												<a href="#">政策法规</a>
+												<ul>
+													<li><a href="http://zt.10yan.com/html/zgyh/rktj/">测试</a></li>
+													<li><a href="http://zt.10yan.com/html/zgyh/gdkp/">测试</a></li>
+				
+												</ul>
+											</li>
+											<li>
+												<a href="#">工作简报</a>
+												<ul>
+													<li><a href="http://zt.10yan.com/html/zgyh/yhsh/">测试</a></li>
+													<li><a href="http://zt.10yan.com/html/zgyh/jfdh/">测试</a></li>
+												</ul>
+											</li>
+											<li>
+												<a href="http://zt.10yan.com/html/zgyh/bjfw/">安全受理</a>
+											</li>
+											<li>
+												<a href="http://zt.10yan.com/html/zgyh/bjfw/">12319热线</a>
+											</li>
+											<li style="border-right: 0px;">
+												<a href="http://zt.10yan.com/html/zgyh/bjfw/">他山之石</a>
+											</li>
+										</ul>						
+								<script  type="text/javascript"> 
+								$(document).ready(function(){
+									
+									$(".navbg").capacityFixed();
+									
+									$("#navul > li").not(".navhome").hover(function(){
+										$(this).addClass("navmoon");
+									},function(){
+										$(this).removeClass("navmoon");
+									});					
+								});
+								</script>				
+				
+				
+				
+				
+				
+				
+				
+			</div>	
+				
+			</div>
+			<div class="textcon">
+				<div class="nice fl ml10"><a>欢迎访问：十堰数字化城市管理监督指挥中心！</a></div>
+				<div class="sousuo">
+							<form action="http://127.0.0.1/index.php" method="get" target="_blank">
+								<input type="hidden" name="m" value="search">
+								<input type="hidden" name="c" value="index">
+								<input type="hidden" name="a" value="init">
+								<input type="hidden" name="typeid" value="" id="typeid">
+								<input type="hidden" name="siteid" value="1" id="siteid">
+								<input type="text"  type="text" value="请输入你要查询的关键字" onfocus="if(this.value=='请输入你要查询的关键字'){this.value='';}"  onblur="if(this.value==''){this.value='请输入你要查询的关键字';}"  class="text" name="q" id="q"><input type="submit" value="搜 索" class="button">
+							</form>
+				</div>				
+			
+			</div>
+			<div class="main">
+				<div class="list box">
+					<dl>
+						<dt>您的位置：首页 &gt; {catpos($catid)} 列表</dt>
+					</dl>	
+				</div>
+				<div class="con-lft">
+					{php $j=1;}
+					{loop subcat($catid) $v}
+					{php if($v['type']!=0) continue;}
+						<div class="cat-area" {if $j%2==1}style="margin-right:10px"{/if}>
+							<div class="cat-nav">
+								<ul style="font-size: 18px; color: #565656; border-bottom: 1px solid lavender; height: 25px;">
+									<li class="con3nav" style="float: left;">
+										<a>{$v[catname]}</a>								
+									</li>
+									<li style="float:right"><a style="margin-right: 5px; " href="{$v[url]}"><img src="http://zt.10yan.com/html/zgyh/img/more.png"></a></li>
+								
+									
+								</ul>
+							</div>
+							<div class="cat-content">
+								{pc:content action="lists" catid="$catid" num="6" order="id DESC"}
+								<ul>
+									{loop $data $r}
+										<li><a href="{$r[url]}" target="_blank">{$r[title]}</a></li>
+									{/loop}
+								</ul>
+								{/pc}
+							</div>						
+						</div>
+					{$j++}
+					{/loop}				
+				</div>
+				<div class="con-rht">
+					<div class="con1-rht fl ml5">
+						<div class="con1-rht-nav">
+							<ul class="fl"><li><a><img src="img/ico1.jpg"> </a><a >公式公告</a> </li></ul>
+							<span class="rh"><a>更多>> </a> </span>							
+						</div>					
+						<div class="con1-rht-con mt10">
+							<ul><a class="mr5"><img src="img/page.jpg" /></a><a>十堰市数字化城市管理中心关于印发城中村和城乡结合部信息采集工作重点及标准的通知</a></ul>
+							<ul><a class="mr5"><img src="img/page.jpg" /></a><a>十堰市数字化城市管理中心关于印发城中村和城乡结合部信息采集工作重点及标准的通知</a></ul>
+							<ul><a class="mr5"><img src="img/page.jpg" /></a><a>十堰市数字化城市管理中心关于印发城中村和城乡结合部信息采集工作重点及标准的通知</a></ul>
+						</div>				
+					</div>					
+					<div class="con2-rht fl ml5 mt10">
+						<div class="con2-rht-nav">
+							<ul class="fl"><li><a><img src="img/ico2.jpg"> </a><a >公式公告</a> </li></ul>
+							<span class="rh"><a>更多>> </a> </span>							
+						</div>					
+						<div class="con2-rht-con mt10 ">
+							<ul class="mt10">
+							<li class="fl"><a><img src="img/button1.jpg" /> </a> </li>
+							<li class="fl"><a><img src="img/button2.jpg" /> </a> </li>
+							<li class="fl"><a><img src="img/button3.jpg" /> </a> </li>
+							<li class="fl"><a><img src="img/button4.jpg" /> </a> </li>
+							<li class="fl"><a><img src="img/button5.jpg" /> </a> </li>
+							<li class="fl"><a><img src="img/button6.jpg" /> </a> </li>
+							</ul>
+						</div>									
+					</div>							
+				</div>
+				<div class="contract fl">
+					<div class="contract-nav">
+						<li><a href="" style="display: block; text-align: center; font-size: 18px; color: #026CA8;">友情链接</a></li>
+					</div>
+					<div class="friendLink">
+						<ul>
+							<li><a href="#"><img src="img/contrac1.jpg" /></a></li>
+							<li><a href="#"><img src="img/contrac2.jpg" /></a></li>
+							<li><a href="#"><img src="img/contrac3.jpg" /></a></li>
+							<li><a href="#"><img src="img/contrac4.jpg" /></a></li>
+							<li><a href="#"><img src="img/contrac5.jpg" /></a></li>
+							<li><a href="#"><img src="img/contrac6.jpg" /></a></li>
+							<li><a href="#"><img src="img/contrac7.jpg" /></a></li>
+						</ul>
+					</div>
+					<script type="text/javascript">jQuery(".friendLink").slide({ mainCell:"ul",autoPlay:true,effect:"leftMarquee",interTime:50,vis:7  });</script>				
+					
+				</div>	
+			</div>
+			<div class="bottom mt10 fl" style="padding-top: 30px;">
+					<p style="text-align: center;">Copyright@2015 www.sycg12319.com All Rights Reserved</p>
+					<p style="text-align: center;">版权所有：十堰市数字城市监督管理中心 &nbsp;鄂ICP备05009703</p>
+					
+					
+			</div>			
+	</body>
+</html>
