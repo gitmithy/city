@@ -50,9 +50,9 @@
 					
 					</script></li>
 					
-					<li class="rh date">
-						<span><a>设为首页</a></span>
-						<span><a>加入收藏</a></span>
+					<li class="rh fav">
+						<span><a class="s_home fred" href="javascript:void(3);" onclick="T.setHomePage(this,'http://www.2345.com/?to=2345');clickCount('homepage');return(false);" id="sh_hd" ><i class="ic_home"></i>设为主页</a></span>
+						<span><a onClick="try{ window.external.AddFavorite('http://hao.360.cn/','网址导航'); } catch(e){ (window.sidebar)?window.sidebar.addPanel('网址导航','http://hao.360.cn/',''):alert('请使用按键 Ctrl+d，网址导航'); }">收藏</a></span>
 					</li>
 				</ul>
 				
@@ -198,7 +198,7 @@
 				</div>				
 				<div class="con1-ctr fl ml10">
 					<div class="con1-ctr-nav">
-						<ul class="fl"><li><a >工作动态</a> </li></ul>
+						<ul class="fl"><li><a class="navtext">工作动态</a> </li></ul>
 						<span class="rh"><a>更多>> </a> </span>							
 					</div>
 					<div class="con1-ctr-con">
@@ -218,7 +218,7 @@
 				</div>
 				<div class="con1-rht fl ml5">
 					<div class="con1-rht-nav">
-						<ul class="fl"><li><a><img src="img/ico1.jpg"> </a><a >公式公告</a> </li></ul>
+						<ul class="fl"><li><a><img src="img/ico1.jpg"> </a><a class="navtext2">公式公告</a> </li></ul>
 						<span class="rh"><a>更多>> </a> </span>							
 					</div>					
 					<div class="con1-rht-con mt10">
@@ -231,7 +231,7 @@
 			<div class="con2" >
 				<div class="con2-lft fl ml5 mt10">
 					<div class="con2-lft-nav">
-						<ul class="fl"><li><a >公式公告</a> </li></ul>
+						<ul class="fl"><li><a class="navtext2">工作简报</a> </li></ul>
 						<span class="rh"><a>更多>> </a> </span>							
 					</div>					
 					<div class="con2-lft-con mt10">
@@ -249,7 +249,7 @@
 				</div>
 				<div class="con2-ctr fl ml10 mt10">
 					<div class="con2-ctr-nav">
-						<ul class="fl"><li><a >公式公告</a> </li></ul>
+						<ul class="fl"><li><a class="navtext">督导考评</a> </li></ul>
 						<span class="rh"><a>更多>> </a> </span>							
 					</div>					
 					<div class="con2-ctr-con mt10">
@@ -267,7 +267,7 @@
 				</div>
 				<div class="con2-rht fl ml5 mt10">
 					<div class="con2-rht-nav">
-						<ul class="fl"><li><a><img src="img/ico2.jpg"> </a><a >公式公告</a> </li></ul>
+						<ul class="fl"><li><a><img src="img/ico2.jpg"> </a><a class="navtext2">中心简介</a> </li></ul>
 						<span class="rh"><a>更多>> </a> </span>							
 					</div>					
 					<div class="con2-rht-con mt10 ">
@@ -298,7 +298,7 @@
 			<div class="con3">
 				<div class="con3-lft fl ml5 mt10">
 					<div class="con3-lft-nav">
-						<ul class="fl"><li><a >公式公告</a> </li></ul>
+						<ul class="fl"><li><a class="navtext2">服务之窗</a> </li></ul>
 						<span class="rh"><a>更多>> </a> </span>							
 					</div>					
 					<div class="con3-lft-con mt10">
@@ -319,7 +319,7 @@
 				</div>
 				<div class="con3-ctr fl ml10 mt10">
 					<div class="con3-ctr-nav">
-						<ul class="fl"><li><a >公式公告</a> </li></ul>
+						<ul class="fl"><li><a class="navtext">政策法规</a> </li></ul>
 						<span class="rh"><a>更多>> </a> </span>							
 					</div>					
 					<div class="con3-ctr-con mt10">
@@ -337,7 +337,7 @@
 				</div>
 				<div class="con3-rht fl ml5 mt10">
 					<div class="con3-rht-nav">
-						<ul class="fl"><li><a><img src="img/ico3.jpg"> </a><a >公式公告</a> </li></ul>
+						<ul class="fl"><li><a><img src="img/ico3.jpg"> </a><a class="navtext2">他山之石</a> </li></ul>
 						<span class="rh"><a>更多>> </a> </span>							
 					</div>					
 					<div class="con3-rht-con mt10 ">
@@ -356,7 +356,7 @@
 			</div>
 			<div class="photo">
 				<div class="photo-nav">
-						<ul class="fl"><li><a >图说数字化城市管理</a> </li></ul>
+						<ul class="fl"><li><a class="navtext2">图说数字化城市管理</a> </li></ul>
 						<span class="rh"><a>更多>> </a> </span>								
 				</div>
 				<!--<div class="picScroll">
