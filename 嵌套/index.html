@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<meta name="keywords" content="{$SEO['keyword']}">
+		<meta name="description" content="{$SEO['description']}">
+		<link rel="stylesheet" type="text/css" href="{CSS_PATH}city.css"/>
+		<link rel="stylesheet" type="text/css" href="{CSS_PATH}base.css"/>
+	    <script language="javascript" type="text/javascript" src="{JS_PATH}jquery1.42.min.js"></script>
+        <script language="javascript" type="text/javascript" src="{JS_PATH}jquery.SuperSlide.2.1.1.js"></script>
+		<script language="JavaScript" type="text/javascript" src="{JS_PATH}jquery.cxscroll.min.js" ></script>
+		<script language="JavaScript" type="text/javascript" src="{JS_PATH}script.js" ></script>
+
+	</head>
+	<body>
+		
+			<div class="page">
+				
+				
+				<ul>
+					<li class="date fl">
+					<script>
+					
+					
+						var now=new Date();
+						var year=now.getFullYear();
+						var month=now.getMonth();
+						var date=now.getDate();
+						var day=now.getDay();
+						var hour=now.getHours();
+						var minu=now.getMinutes();
+						var sec=now.getSeconds();
+						var week;
+						month=month+1;
+						if(month<10) month="0"+month;
+						if(date<10) date="0"+date;
+						if(hour<10) hour="0"+hour;
+						if(minu<10) minu="0"+minu;
+						if(sec<10) sec="0"+sec;
+						var arr_week=new Array("星期日","星期一","星期二","星期三","星期四","星期五","星期六");
+						week=arr_week[day];
+						var time="";
+						time=year+"年"+month+"月"+date+"日"+week+""+hour+":"+minu+";"+sec;
+						
+						
+					
+					document.write(time);
+					
+					
+					</script></li>
+					
+					<li class="rh fav">
+						<span><a class="s_home fred" href="javascript:void(3);" onclick="T.setHomePage(this,'http://www.2345.com/?to=2345');clickCount('homepage');return(false);" id="sh_hd" ><i class="ic_home"></i>设为主页</a></span>
+						<span><a onClick="try{ window.external.AddFavorite('http://hao.360.cn/','网址导航'); } catch(e){ (window.sidebar)?window.sidebar.addPanel('网址导航','http://hao.360.cn/',''):alert('请使用按键 Ctrl+d，网址导航'); }">收藏</a></span>
+					</li>
+				</ul>
+				
+				
+			</div>
+		
+			<div class="top"></div>
+			<div class="nav">
+				<div class="navlist">
+							<ul id="navul" class="cl">
+											<li class="navhome"  style="border-right: 1px solid #C1C1C1;"><a href="http://city.miku.cf/">首页</a></li>
+											<li>
+												<a href="http://city.miku.cf/html/zxjj/">中心简介</a>
+												<ul>
+													<li><a href="http://zt.10yan.com/html/zgyh/wzxw/">测试</a></li>
+													<li><a href="http://zt.10yan.com/html/zgyh/xhd/">测试</a></li>
+				
+												</ul>
+											</li>
+											<li>
+												<a href="http://city.miku.cf/html/gzdt/">工作动态</a>
+												<ul>
+													<li><a href="http://zt.10yan.com/html/zgyh/lccp/cpgg/">测试</a></li>
+													<li><a href="http://zt.10yan.com/html/zgyh/lccp/cpjz/">测试</a></li>
+				
+												</ul>
+											</li>
+											<li>
+												<a href="http://city.miku.cf/html/ddkp/">监督考评</a>
+												<ul>
+													<li><a href="http://zt.10yan.com/html/zgyh/cglx/">测试</a></li>
+													<li><a href="http://zt.10yan.com/html/zgyh/gjsl/">测试</a></li>
+													<li><a href="http://zt.10yan.com/html/zgyh/tzym/">测试</a></li>
+													<li><a href="http://zt.10yan.com/html/zgyh/wpgz/">测试</a></li>
+				
+												</ul>
+											</li>
+											<li>
+												<a href="http://city.miku.cf/html/zcfg/">政策法规</a>
+												<ul>
+													<li><a href="http://zt.10yan.com/html/zgyh/rktj/">测试</a></li>
+													<li><a href="http://zt.10yan.com/html/zgyh/gdkp/">测试</a></li>
+				
+												</ul>
+											</li>
+											<li>
+												<a href="http://city.miku.cf/html/gzjb/">工作简报</a>
+												<ul>
+													<li><a href="http://zt.10yan.com/html/zgyh/yhsh/">测试</a></li>
+													<li><a href="http://zt.10yan.com/html/zgyh/jfdh/">测试</a></li>
+												</ul>
+											</li>
+											<li>
+												<a href="http://city.miku.cf/html/aqsl/">安全受理</a>
+											</li>
+											<li>
+												<a href="http://city.miku.cf/html/rx/">12319热线</a>
+											</li>
+											<li style="border-right: 0px;">
+												<a href="http://city.miku.cf/html/tszs/">他山之石</a>
+											</li>
+										</ul>						
+								<script  type="text/javascript"> 
+								$(document).ready(function(){
+									
+									$(".navbg").capacityFixed();
+									
+									$("#navul > li").not(".navhome").hover(function(){
+										$(this).addClass("navmoon");
+									},function(){
+										$(this).removeClass("navmoon");
+									});					
+								});
+								</script>				
+				
+				
+				
+				
+				
+				
+				
+			</div>	
+				
+			</div>
+			<div class="textcon">
+				<div class="nice fl ml10"><a>欢迎访问：十堰数字化城市管理监督指挥中心！</a></div>
+				<div class="sousuo">
+							<form action="http://127.0.0.1/index.php" method="get" target="_blank">
+								<input type="hidden" name="m" value="search">
+								<input type="hidden" name="c" value="index">
+								<input type="hidden" name="a" value="init">
+								<input type="hidden" name="typeid" value="" id="typeid">
+								<input type="hidden" name="siteid" value="1" id="siteid">
+								<input type="text"  type="text" value="请输入你要查询的关键字" onfocus="if(this.value=='请输入你要查询的关键字'){this.value='';}"  onblur="if(this.value==''){this.value='请输入你要查询的关键字';}"  class="text" name="q" id="q"><input type="submit" value="搜 索" class="button">
+							</form>
+				</div>				
+			
+			</div>
+			<div class="con1" style="padding-top: 5px;">
+				<div class="con1-lft ml5">
+					<div class="focusbox" id="focusbox">
+						<div class="hd">
+							<ul>
+								<li class="on">1</li>
+								<li class="">2</li>
+								<li class="">3</li>
+								<li class="">4</li>
+							</ul>
+						</div>
+						<div class="bd">
+							<ul style="padding-left: 0px;">
+								
+								{pc:content action="lists" catid="690" order="id desc" thumb="1" moreinfo=""  num="4" }
+								{loop $data $n $r}								
+								<li style="display: none;">
+									<div class="bd">
+										<a href="{$r[url]}" target="_blank"><img src="{$r[thumb]}" width="335px" height="250px"></a>
+									</div>
+									<div class="con">{$r[title]}</div>										
+								</li>
+								{/loop}
+								{/pc}								
+																								
+							</ul>
+						</div>
+				    </div>
+				    <script type="text/javascript">
+						jQuery(".focusbox").slide({ mainCell:".bd ul",autoPlay:true, delaytime:700, trigger:"click"});
+					</script>		
+				</div>				
+				<div class="con1-ctr fl ml10">
+					<div class="con1-ctr-nav">
+						<ul class="fl"><li><a class="navtext">工作动态</a> </li></ul>
+						<span class="rh"><a>更多>> </a> </span>							
+					</div>
+					<div class="con1-ctr-con">
+				    {php $where = " status=99 AND catid=621 AND posids=1";}
+					{pc:content action="lists" catid="621"  where="$where" order="id" thumb="" moreinfo=""  num="1" }
+					{loop $data $n $r}						
+						<h2 class="mt10" style="text-align: center;"><a href="http://www.SuperSlide2.com" target="_blank">{$r[title]}</a></h2>
+				    {/loop}
+					{/pc}						
+						<ul class="mt10">
+								{php $where = " status=99 AND catid=621 AND posids<>1";}
+					            {pc:content action="lists" catid="621"  where="$where" order="inputtime DESC" thumb="" moreinfo=""  num="8" }
+					            {loop $data $n $r}							
+							<li class="listyle"><span class="rh">{date('Y-m-d',$r[inputtime])}</span><a href="{$r[url]}" target="_blank">{$r[title]}</a></li>
+
+						    {/loop}
+							{/pc}							
+						</ul>						
+					</div>					
+				</div>
+				<div class="con1-rht fl ml5">
+					<div class="con1-rht-nav">
+						<ul class="fl"><li><a><img src="{IMG_PATH}ico1.jpg"> </a><a class="navtext2">公式公告</a> </li></ul>
+						<span class="rh"><a>更多>> </a> </span>							
+					</div>					
+					<div class="con1-rht-con mt10">
+						
+						<ul><a class="mr5"><img src="{IMG_PATH}page.jpg" /></a><a>十堰市数字化城市管理中心关于印发城中村和城乡结合部信息采集工作重点及标准的通知</a></ul>
+						<ul><a class="mr5"><img src="{IMG_PATH}page.jpg" /></a><a>十堰市数字化城市管理中心关于印发城中村和城乡结合部信息采集工作重点及标准的通知</a></ul>
+						<ul><a class="mr5"><img src="{IMG_PATH}page.jpg" /></a><a>十堰市数字化城市管理中心关于印发城中村和城乡结合部信息采集工作重点及标准的通知</a></ul>
+						
+					</div>				
+				</div>			
+			</div>
+			<div class="con2" >
+				<div class="con2-lft fl ml5 mt10">
+					<div class="con2-lft-nav">
+						<ul class="fl"><li><a class="navtext2">工作简报</a> </li></ul>
+						<span class="rh"><a>更多>> </a> </span>							
+					</div>					
+					<div class="con2-lft-con mt10">
+						<ul class="mt10">
+						{pc:content action="lists" catid="13" order="inputtime DESC" thumb="1" moreinfo=""  num="8" }
+						{loop $data $n $r}                    
+							<li class="listyle"><span class="rh">{date('Y-m-d',$r[inputtime])}</span><a href="{$r[url]}" target="_blank">郧阳区女教师王霞拾到价值3万</a></li>
+
+						    {/loop}
+							{/pc}							
+						</ul>	
+					</div>				
+				</div>
+				<div class="con2-ctr fl ml10 mt10">
+					<div class="con2-ctr-nav">
+						<ul class="fl"><li><a class="navtext">督导考评</a> </li></ul>
+						<span class="rh"><a>更多>> </a> </span>							
+					</div>					
+					<div class="con2-ctr-con mt10">
+						<ul class="mt10">
+							<li class="listyle"><span class="rh">2011-11-11</span><a href="http://www.SuperSlide2.com" target="_blank">郧阳区女教师王霞拾到价值3万</a></li>
+							<li class="listyle"><span class="rh">2011-11-11</span><a href="http://www.SuperSlide2.com" target="_blank">郧阳区女教师王霞拾到价值3万</a></li>
+							<li class="listyle"><span class="rh">2011-11-11</span><a href="http://www.SuperSlide2.com" target="_blank">郧阳区女教师王霞拾到价值3万</a></li>
+							<li class="listyle"><span class="rh">2011-11-11</span><a href="http://www.SuperSlide2.com" target="_blank">郧阳区女教师王霞拾到价值3万</a></li>
+							<li class="listyle"><span class="rh">2011-11-11</span><a href="http://www.SuperSlide2.com" target="_blank">郧阳区女教师王霞拾到价值3万</a></li>
+							<li class="listyle"><span class="rh">2011-11-11</span><a href="http://www.SuperSlide2.com" target="_blank">郧阳区女教师王霞拾到价值3万</a></li>
+							<li class="listyle"><span class="rh">2011-11-11</span><a href="http://www.SuperSlide2.com" target="_blank">郧阳区女教师王霞拾到价值3万</a></li>
+							<li class="listyle"><span class="rh">2011-11-11</span><a href="http://www.SuperSlide2.com" target="_blank">郧阳区女教师王霞拾到价值3万</a></li>
+						</ul>	
+					</div>										
+				</div>
+				<div class="con2-rht fl ml5 mt10">
+					<div class="con2-rht-nav">
+						<ul class="fl"><li><a><img src="{IMG_PATH}ico2.jpg"> </a><a class="navtext2">中心简介</a> </li></ul>
+						<span class="rh"><a>更多>> </a> </span>							
+					</div>					
+					<div class="con2-rht-con mt10 ">
+						<ul class="mt10">
+						<li class="fl"><a><img src="{IMG_PATH}button1.jpg" /> </a> </li>
+						<li class="fl"><a><img src="{IMG_PATH}button2.jpg" /> </a> </li>
+						<li class="fl"><a><img src="{IMG_PATH}button3.jpg" /> </a> </li>
+						<li class="fl"><a><img src="{IMG_PATH}button4.jpg" /> </a> </li>
+						<li class="fl"><a><img src="{IMG_PATH}button5.jpg" /> </a> </li>
+						<li class="fl"><a><img src="{IMG_PATH}button6.jpg" /> </a> </li>
+						</ul>
+					</div>									
+				</div>
+			</div>
+			<div class="banner">
+				<div class="adSlide1" style="position: relative;">
+					<div class="hd"><ul></ul></div>
+					<div class="bd">
+						<ul>
+							<li><a><img src="{IMG_PATH}banner.jpg"  width="1000px" height="94px"/> </a> </li>
+							<li><a><img src="{IMG_PATH}banner.jpg"  width="1000px" height="94px"/> </a> </li>
+						</ul>
+					</div>
+		
+					<script type="text/javascript">jQuery(".adSlide1").slide({ titCell:".hd ul", mainCell:".bd ul",delayTime:1300,interTime:4500,autoPlay:true,effect:"top",autoPage:true });</script>			
+				</div>														
+			</div>
+			<div class="con3">
+				<div class="con3-lft fl ml5 mt10">
+					<div class="con3-lft-nav">
+						<ul class="fl"><li><a class="navtext2">服务之窗</a> </li></ul>
+						<span class="rh"><a>更多>> </a> </span>							
+					</div>					
+					<div class="con3-lft-con mt10">
+						<ul class="mt10">
+							<a><img src="{IMG_PATH}quebut.jpg" /> </a>
+							<ul class="palf20">
+							<li><a>[投诉]</a><a>郧西县一中管理太缺人性化</a></li>
+							<li><a>[回复]</a><a>网格员无常加班的事情不是只有一个社区如此，多数社区都存在这种情况</a></li>																						
+							</ul>
+							<ul class="palf20">
+							<li><a>[投诉]</a><a>郧西县一中管理太缺人性化</a></li>
+							<li><a>[回复]</a><a>网格员无常加班的事情不是只有一个社区如此，多数社区都存在这种情况</a></li>																							
+							</ul>							
+
+							
+						</ul>	
+					</div>				
+				</div>
+				<div class="con3-ctr fl ml10 mt10">
+					<div class="con3-ctr-nav">
+						<ul class="fl"><li><a class="navtext">政策法规</a> </li></ul>
+						<span class="rh"><a>更多>> </a> </span>							
+					</div>					
+					<div class="con3-ctr-con mt10">
+						<ul class="mt10">
+							<li class="listyle"><span class="rh">2011-11-11</span><a href="http://www.SuperSlide2.com" target="_blank">郧阳区女教师王霞拾到价值3万</a></li>
+							<li class="listyle"><span class="rh">2011-11-11</span><a href="http://www.SuperSlide2.com" target="_blank">郧阳区女教师王霞拾到价值3万</a></li>
+							<li class="listyle"><span class="rh">2011-11-11</span><a href="http://www.SuperSlide2.com" target="_blank">郧阳区女教师王霞拾到价值3万</a></li>
+							<li class="listyle"><span class="rh">2011-11-11</span><a href="http://www.SuperSlide2.com" target="_blank">郧阳区女教师王霞拾到价值3万</a></li>
+							<li class="listyle"><span class="rh">2011-11-11</span><a href="http://www.SuperSlide2.com" target="_blank">郧阳区女教师王霞拾到价值3万</a></li>
+							<li class="listyle"><span class="rh">2011-11-11</span><a href="http://www.SuperSlide2.com" target="_blank">郧阳区女教师王霞拾到价值3万</a></li>
+							<li class="listyle"><span class="rh">2011-11-11</span><a href="http://www.SuperSlide2.com" target="_blank">郧阳区女教师王霞拾到价值3万</a></li>
+							<li class="listyle"><span class="rh">2011-11-11</span><a href="http://www.SuperSlide2.com" target="_blank">郧阳区女教师王霞拾到价值3万</a></li>
+						</ul>	
+					</div>							
+				</div>
+				<div class="con3-rht fl ml5 mt10">
+					<div class="con3-rht-nav">
+						<ul class="fl"><li><a><img src="{IMG_PATH}ico3.jpg"> </a><a class="navtext2">他山之石</a> </li></ul>
+						<span class="rh"><a>更多>> </a> </span>							
+					</div>					
+					<div class="con3-rht-con mt10 ">
+						<ul class="mt10">
+							<li class="listyle"><a href="http://www.SuperSlide2.com" target="_blank">郧阳区女教师王霞拾到价值3万</a></li>
+							<li class="listyle"><a href="http://www.SuperSlide2.com" target="_blank">郧阳区女教师王霞拾到价值3万</a></li>
+							<li class="listyle"><a href="http://www.SuperSlide2.com" target="_blank">郧阳区女教师王霞拾到价值3万</a></li>
+							<li class="listyle"><a href="http://www.SuperSlide2.com" target="_blank">郧阳区女教师王霞拾到价值3万</a></li>
+							<li class="listyle"><a href="http://www.SuperSlide2.com" target="_blank">郧阳区女教师王霞拾到价值3万</a></li>
+							<li class="listyle"><a href="http://www.SuperSlide2.com" target="_blank">郧阳区女教师王霞拾到价值3万</a></li>
+							<li class="listyle"><a href="http://www.SuperSlide2.com" target="_blank">郧阳区女教师王霞拾到价值3万</a></li>
+							<li class="listyle"><a href="http://www.SuperSlide2.com" target="_blank">郧阳区女教师王霞拾到价值3万</a></li>
+						</ul>
+					</div>									
+				</div>
+			</div>
+			<div class="photo">
+				<div class="photo-nav">
+						<ul class="fl"><li><a class="navtext2">图说数字化城市管理</a> </li></ul>
+						<span class="rh"><a>更多>> </a> </span>								
+				</div>
+				<!--<div class="picScroll">
+						<ul>
+							<li><a href="#"><img src="img/slide1.jpg" /><br><a style="text-align: center; display: block;">测试</a></a></li>
+							<li><a href="#"><img src="img/slide1.jpg" /><br><a style="text-align: center; display: block;">测试</a></a></li>
+							<li><a href="#"><img src="img/slide1.jpg" /><br><a style="text-align: center; display: block;">测试</a></a></li>
+							<li><a href="#"><img src="img/slide1.jpg" /><br><a style="text-align: center; display: block;">测试</a></a></li>
+							<li><a href="#"><img src="img/slide1.jpg" /><br><a style="text-align: center; display: block;">测试</a></a></li>
+							<li><a href="#"><img src="img/slide1.jpg" /><br><a style="text-align: center; display: block;">测试</a></a></li>
+							<li><a href="#"><img src="img/slide1.jpg" /><br><a style="text-align: center; display: block;">测试</a></a></li>
+						</ul>
+						<a class="prev"></a>
+						<a class="next"></a>
+				</div>
+				<script type="text/javascript">jQuery(".picScroll").slide({ mainCell:"ul",autoPlay:true,effect:"left", vis:5, scroll:2, autoPage:true, pnLoop:false });</script>				-->
+				<div id="pic_list_2" class="scroll_horizontal">
+						<a class="next"></a>
+						<a class="prev"></a>
+							<div class="box">
+								<ul class="list">
+									<li style="text-align: center;"><a href="#"><img src="{IMG_PATH}slide1.jpg" width="215" height="140" alt="员工风貌"><br>员工风貌</a></li>
+									<li style="text-align: center;"><a href="#"><img src="{IMG_PATH}slide1.jpg" width="215" height="140" alt="员工风貌"><br>员工风貌</a></li>
+									<li style="text-align: center;"><a href="#"><img src="{IMG_PATH}slide1.jpg" width="215" height="140" alt="员工风貌"><br>员工风貌</a></li>
+									<li style="text-align: center;"><a href="#"><img src="{IMG_PATH}slide1.jpg" width="215" height="140" alt="员工风貌"><br>员工风貌</a></li>
+									<li style="text-align: center;"><a href="#"><img src="{IMG_PATH}slide1.jpg" width="215" height="140" alt="员工风貌"><br>员工风貌</a></li>
+									<li style="text-align: center;"><a href="#"><img src="{IMG_PATH}slide1.jpg" width="215" height="140" alt="员工风貌"><br>员工风貌</a></li>
+	
+									
+								</ul>
+							</div>		
+					<script>
+					$("#pic_list_2").cxScroll();
+					</script>				
+				</div>												
+				
+			</div>
+			<div class="contract">
+				<div class="contract-nav">
+					<li><a href="" style="display: block; text-align: center; font-size: 18px; color: #026CA8;">友情链接</a></li>
+				</div>
+				<div class="friendLink">
+					<ul>
+						<li><a href="#"><img src="{IMG_PATH}contrac1.jpg" /></a></li>
+						<li><a href="#"><img src="{IMG_PATH}contrac2.jpg" /></a></li>
+						<li><a href="#"><img src="{IMG_PATH}contrac3.jpg" /></a></li>
+						<li><a href="#"><img src="{IMG_PATH}contrac4.jpg" /></a></li>
+						<li><a href="#"><img src="{IMG_PATH}contrac5.jpg" /></a></li>
+						<li><a href="#"><img src="{IMG_PATH}contrac6.jpg" /></a></li>
+						<li><a href="#"><img src="{IMG_PATH}contrac7.jpg" /></a></li>
+					</ul>
+				</div>
+				<script type="text/javascript">jQuery(".friendLink").slide({ mainCell:"ul",autoPlay:true,effect:"leftMarquee",interTime:50,vis:7  });</script>				
+				
+			</div>
+				
+			<div class="bottom mt10" style="padding-top: 30px;">
+				<p style="text-align: center;">Copyright@2015 www.sycg12319.com All Rights Reserved</p>
+				<p style="text-align: center;">版权所有：十堰市数字城市监督管理中心 &nbsp;鄂ICP备05009703</p>
+				
+				
+			</div>
+		
+	</body>
+</html>
