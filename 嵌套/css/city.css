@@ -50,7 +50,7 @@ a{text-decoration:none;list-style:none;list-style-type:none}
 body{
 	width: 100%;
 
-	background-image: url(../img/bg3.jpg);
+	background-image: url(http://city.miku.cf/statics/images/bg3.jpg);
 	background-position-x: 50%;
 	background-position-y: no-repeat ;
 	background-size: initial;
@@ -122,16 +122,16 @@ body{
 .focusbox .bd{position:relative}
 .focusbox .bd .pic{line-height:0}
 .focusbox .bd .con{width:335px;height:35px;line-height:35px;text-align:center;font-weight:700;background:#f6f6f6}
-.listyle{background-image:url(../img/li.png) ;background-repeat: no-repeat;padding-left: 8px;}
+.listyle{background-image:url(http://city.miku.cf/statics/images/li.png) ;background-repeat: no-repeat;padding-left: 8px;}
 .con1-ctr{width: 380px; height: 280px;}
-.con1-ctr-nav{background-image: url(../img/nav.jpg);background-repeat: no-repeat; width: 375px; height: 30px;}
+.con1-ctr-nav{background-image: url(http://city.miku.cf/statics/images/nav.jpg);background-repeat: no-repeat; width: 375px; height: 30px;}
 .con1-ctr-nav span{font-size: 12px; line-height: 32px; padding-right: 5px;}
 .con1-ctr-nav li{font-size: 12px; line-height: 32px; padding-left: 5px;}
 .con1-ctr-con ul{padding: 0 10px; line-height: 28px; font-size: 16px;}
 
 .con1-rht{width: 260px; height: 280px;}
 .con1-rht-nav{ width: 260px; height: 30px;font-size: 12px; line-height: 32px;}
-.con1-rht-con{background-image: url(../img/pagebg.jpg);background-repeat: no-repeat; width: 260px;height: 255px;}
+.con1-rht-con{background-image: url(http://city.miku.cf/statics/images/pagebg.jpg);background-repeat: no-repeat; width: 260px;height: 255px;}
 .con1-rht-con ul{
 	margin: 0 10px; padding: 5px 0; line-height:25px;
 }
@@ -139,20 +139,20 @@ body{
 
 .con2{width: 1000px;height: 270px;margin: 10px auto;}
 .con2-lft{width: 335px; height: 270px;float: left;}
-.con2-lft-nav{background-image: url(../img/nav2.jpg);background-repeat: no-repeat; width: 335px; height: 33px;}
+.con2-lft-nav{background-image: url(http://city.miku.cf/statics/images/nav2.jpg);background-repeat: no-repeat; width: 335px; height: 33px;}
 .con2-lft-nav span{font-size: 12px; line-height: 32px; padding-right: 5px;}
 .con2-lft-nav li{font-size: 12px; line-height: 32px; padding-left: 5px;}
 .con2-lft-con ul{padding: 0 10px; line-height: 28px; font-size: 15px;}
 
 
 .con2-ctr{width: 380px; height: 270px;float: left;}
-.con2-ctr-nav{background-image: url(../img/nav.jpg);background-repeat: no-repeat; width: 375px; height: 30px;}
+.con2-ctr-nav{background-image: url(http://city.miku.cf/statics/images/nav.jpg);background-repeat: no-repeat; width: 375px; height: 30px;}
 .con2-ctr-nav span{font-size: 12px; line-height: 32px; padding-right: 5px;}
 .con2-ctr-nav li{font-size: 12px; line-height: 32px; padding-left: 5px;}
 .con2-ctr-con ul{padding: 0 10px; line-height: 28px; font-size: 16px;}
 .con2-rht{width: 260px; height: 270px;}
 .con2-rht-nav{ width: 260px; height: 30px;font-size: 12px; line-height: 32px;}
-.con2-rht-con{background-image: url(../img/pagebg.jpg);background-repeat: no-repeat; width: 260px;}
+.con2-rht-con{background-image: url(http://city.miku.cf/statics/images/pagebg.jpg);background-repeat: no-repeat; width: 260px;}
 .con2-rht-con ul{
 	margin: 0 10px; padding: 5px 0; line-height:25px;
 }
@@ -173,14 +173,14 @@ body{
 
 .con3{width: 1000px;height: 295px;margin: 0 auto;}
 .con3-lft{width: 335px; height: 270px;float: left;}
-.con3-lft-nav{background-image: url(../img/nav2.jpg);background-repeat: no-repeat; width: 335px; height: 33px;}
+.con3-lft-nav{background-image: url(http://city.miku.cf/statics/images/nav2.jpg);background-repeat: no-repeat; width: 335px; height: 33px;}
 .con3-lft-nav span{font-size: 12px; line-height: 32px; padding-right: 5px;}
 .con3-lft-nav li{font-size: 12px; line-height: 32px; padding-left: 5px;}
 .con3-lft-con ul{ line-height: 28px; font-size: 15px;}
-.con3-lft-con{background-image: url(../img/bg2.jpg); background-repeat: no-repeat;}
+.con3-lft-con{background-image: url(http://city.miku.cf/statics/images/bg2.jpg); background-repeat: no-repeat;}
 
 .con3-ctr{width: 380px; height: 270px;float: left;}
-.con3-ctr-nav{background-image: url(../img/nav.jpg);background-repeat: no-repeat; width: 375px; height: 30px;}
+.con3-ctr-nav{background-image: url(http://city.miku.cf/statics/images/nav.jpg);background-repeat: no-repeat; width: 375px; height: 30px;}
 .con3-ctr-nav span{font-size: 12px; line-height: 32px; padding-right: 5px;}
 .con3-ctr-nav li{font-size: 12px; line-height: 32px; padding-left: 5px;}
 .con3-ctr-con ul{padding: 0 10px; line-height: 28px; font-size: 16px;}
@@ -199,7 +199,7 @@ body{
 	margin: 5px auto;
 }
 .photo-nav{
-	background-image: url(../img/nav3.jpg);background-repeat: no-repeat; width: 960px; height: 36px;
+	background-image: url(http://city.miku.cf/statics/images/nav3.jpg);background-repeat: no-repeat; width: 960px; height: 36px;
 	
 	padding: 0 20px;
 	line-height: 33px;
@@ -224,7 +224,7 @@ body{
 .scroll_horizontal .list{overflow:hidden;width:9999px; height: 170px;}
 .scroll_horizontal .list li{float:left; margin-right: 0px; width: 230px;}
 .scroll_horizontal .prev,
-.scroll_horizontal .next{position:absolute;margin-top:40px; width:40px;height:50px;background-image:url(../img/control.png);background-repeat:no-repeat;font:0/0 Arial;cursor:pointer;}
+.scroll_horizontal .next{position:absolute;margin-top:40px; width:40px;height:50px;background-image:url(http://city.miku.cf/statics/images/control.png);background-repeat:no-repeat;font:0/0 Arial;cursor:pointer;}
 .scroll_horizontal .prev{background-position:0 0;}
 .scroll_horizontal .next{right:5px;background-position:-40px 0;}
 .scroll_horizontal .prev:hover{background-position:0 -50px;}
